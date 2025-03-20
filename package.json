@@ -25,6 +25,7 @@
   "dependencies": {
     "@jarcher/enhanced-chalk": "^1.0.3",
     "commander": "^13.1.0",
-    "fs-extra": "^11.3.0"
+    "fs-extra": "^11.3.0",
+    "ora": "^8.2.0"
   }
 }
