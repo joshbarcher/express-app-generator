@@ -1,6 +1,6 @@
 {
-  "name": "create-express-app",
-  "version": "1.0.15",
+  "name": "@jarcher/create-express-app",
+  "version": "1.0.16",
   "description": "A CLI tool to scaffold a Node.js Express app",
   "type": "module",
   "bin": {

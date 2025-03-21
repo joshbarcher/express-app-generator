@@ -94,9 +94,6 @@ my-awesome-app/
 │   ├── routes/
 │   │   └── routes.js
 │   ├── utility/
-│   │   ├── chalk.js
-│   │   ├── colors.js
-│   │   ├── debug.js
 │   │   └── server.js
 │   └── views/
 │       ├── error.pug
