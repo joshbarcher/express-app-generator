@@ -16,7 +16,7 @@ A simple and fast CLI tool to scaffold a new **Node.js + Express** project in se
 You can install the package globally using npm:
 
 ```sh
-npm install -g create-express-app
+npm install -g @jarcher/create-express-app
 ```
 
 ---
@@ -26,13 +26,13 @@ npm install -g create-express-app
 To create a new Express project, simply run:
 
 ```sh
-create-express-app <project-name>
+@jarcher/create-express-app <project-name>
 ```
 
 Example:
 
 ```sh
-create-express-app my-awesome-app
+@jarcher/create-express-app my-app
 ```
 
 ### 🛠️ What Happens?
@@ -47,7 +47,7 @@ create-express-app my-awesome-app
 Once the setup is complete, navigate into your project and start the server:
 
 ```sh
-cd my-awesome-app
+cd my-app
 npm start
 ```
 
@@ -58,7 +58,7 @@ Your Express app will be running! 🎉
 ## 🏗️ Project Structure
 
 ```plaintext
-my-awesome-app/
+my-app/
 ├── config.env
 ├── eslint.config.js
 ├── jest.config.mjs
