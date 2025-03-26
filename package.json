@@ -27,5 +27,14 @@
     "commander": "^13.1.0",
     "execa": "^9.5.2",
     "fs-extra": "^11.3.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.projectmindforge.com"
+  },
+  "scripts": {
+    "patch": "npm version patch --no-git-tag-version && npm publish",
+    "minor": "npm version minor --no-git-tag-version && npm publish",
+    "major": "npm version major --no-git-tag-version && npm publish"
   }
 }
