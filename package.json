@@ -33,6 +33,7 @@
     "registry": "https://npm.projectmindforge.com"
   },
   "scripts": {
+    "update": "node tools/update.js",
     "patch": "npm version patch --no-git-tag-version && npm publish",
     "minor": "npm version minor --no-git-tag-version && npm publish",
     "major": "npm version major --no-git-tag-version && npm publish"
