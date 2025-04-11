@@ -1,6 +1,6 @@
 {
   "name": "@jarcher/create-express-app",
-  "version": "1.0.22",
+  "version": "1.0.23",
   "description": "A CLI tool to scaffold a Node.js Express app",
   "type": "module",
   "bin": {
@@ -33,7 +33,6 @@
     "registry": "https://npm.projectmindforge.com"
   },
   "scripts": {
-    "update": "node tools/update.js",
     "patch": "npm version patch --no-git-tag-version && npm publish",
     "minor": "npm version minor --no-git-tag-version && npm publish",
     "major": "npm version major --no-git-tag-version && npm publish"
